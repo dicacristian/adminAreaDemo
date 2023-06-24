@@ -3,17 +3,13 @@ package tests;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageObjects.LoginPage;
 import pageObjects.ProductEditPage;
 import pageObjects.ProductPage;
 import pageObjects.SideBarPage;
-
-import java.time.Duration;
 
 import static org.testng.Assert.*;
 import static pageObjects.ProductPage.EMPTY_PRODUCT_LIST_CSS;
