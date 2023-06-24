@@ -12,8 +12,7 @@ public class LoginTests extends BaseTest {
             driver.get("https://admin-demo.nopcommerce.com/");
         LoginPage loginPage = new LoginPage(driver);
         loginPage.getLoginForm().submit();
-//        loginPage.getEmail().sendKeys("admin@yourstore.com");
-//        loginPage.getPassword().sendKeys("admin");
+
 
         assertTrue(driver.getCurrentUrl().contains("/admin/"),"Login was unsuccessful with the default data");
 
