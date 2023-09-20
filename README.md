@@ -8,9 +8,9 @@ This repository contain:
 
 · Automation for some buttons functionality, how to make an appointment
 
-· Pages with login steps, Webelements, functions, methods with and without parameters
+· Pages with login steps, WebElements, functions, methods with and without parameters
 
 · sserts used for validating the code
 
-· utomation test for redirect a page
+· Automation test for redirect a page
 
