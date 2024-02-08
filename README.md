@@ -4,7 +4,7 @@ This repository contain:
 
 · ChromeDriver with Options
 
-· Automation for a login form with valid
+· Automation for a login form with valid preferentials
 
 · Automation for some buttons functionality, how to make an appointment
 
